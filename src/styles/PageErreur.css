@@ -1,0 +1,29 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.error-content {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.error-content h2 {
+  margin-bottom: 150px;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.red {
+  color: #FF6060;
+}
+
+.error-code {
+  font-size: 280px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 70px;
+  margin-bottom: 110px;
+}
+
+.link-accueil {
+  color: black;
+}/*# sourceMappingURL=PageErreur.css.map */

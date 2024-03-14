@@ -1,0 +1,20 @@
+.carousel {
+  background-image: url("../images/image1.jpg");
+  height: 415px;
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.arrows {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=Carousel.css.map */

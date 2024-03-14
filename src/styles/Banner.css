@@ -1,0 +1,17 @@
+.banner {
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/image1.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.banner h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=Banner.css.map */
