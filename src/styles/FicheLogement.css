@@ -4,4 +4,7 @@
   justify-content: space-between;
   gap: 100px;
   margin-bottom: 40px;
+}
+.collapse-section .collapse {
+  width: 50%;
 }/*# sourceMappingURL=FicheLogement.css.map */

@@ -1,13 +1,18 @@
 .description{
     display: flex;
     justify-content: space-between;
-}
-
-.description h2{
-    color: #FF6060;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 5px;
+    h2{
+        color: #FF6060;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 5px;
+    }
+    .description-right{
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 .tags{
@@ -24,6 +29,22 @@
     margin-right: 15px;
 }
 
-.description-name{
-    max-width: 2px;
+.host{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .name{
+        margin-right: 10px;
+    }
+    .description-name{
+    color: #FF6060;
+    text-align: right;
+    line-height: 7px;
+    }
+    .profile-pic{
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+    }
 }
+

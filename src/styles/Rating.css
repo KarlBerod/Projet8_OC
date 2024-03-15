@@ -1,0 +1,10 @@
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+.stars .red {
+  color: #FF6060;
+}
+.stars .grey {
+  color: #E3E3E3;
+}/*# sourceMappingURL=Rating.css.map */

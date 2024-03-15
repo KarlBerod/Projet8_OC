@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
 }
-
 .description h2 {
   color: #FF6060;
   font-size: 36px;
   font-weight: 500;
   line-height: 5px;
+}
+.description .description-right {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tags {
@@ -24,6 +29,21 @@
   margin-right: 15px;
 }
 
-.description-name {
-  max-width: 2px;
+.host {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.host .name {
+  margin-right: 10px;
+}
+.host .description-name {
+  color: #FF6060;
+  text-align: right;
+  line-height: 7px;
+}
+.host .profile-pic {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
 }/*# sourceMappingURL=Description.css.map */
