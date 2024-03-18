@@ -1,1 +1,15 @@
-/*# sourceMappingURL=APropos.css.map */
+.collapse-section-apropos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.collapse-apropos {
+  margin-bottom: 300px;
+}
+
+.banner-apropos {
+  margin-bottom: 175px;
+}/*# sourceMappingURL=APropos.css.map */

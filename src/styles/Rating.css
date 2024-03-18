@@ -1,6 +1,8 @@
 .stars {
-  display: flex;
-  justify-content: space-between;
+  margin-top: 20px;
+}
+.stars .fa-star {
+  margin-left: 10px;
 }
 .stars .red {
   color: #FF6060;

@@ -1,6 +1,7 @@
 import '../styles/Description.css';
 import data from '../data.json';
 import Rating from './Rating';
+import Tag from './Tag';
 
 export default function Description(){
     const title = data[0].title;
@@ -8,17 +9,16 @@ export default function Description(){
     const tags = data[0].tags;
     const host = data[0].host;
     const [firstName, lastName] = data[0].host.name.split(' ');
-    const rating = data[1].rating;
 
     return(
         <div className='description'>
             <div className='description-left'>
                 <h2 className='description-title'>{title}</h2>
-                <p>{location}</p>
+                <p className='location-description'>{location}</p>
                 <div className='tags'>
-                    <div className='tag'>{tags[0]}</div>
-                    <div className="tag">{tags[1]}</div>
-                    <div className="tag">{tags[2]}</div>
+                {tags.map((tag, index) => (
+                    <Tag key={index} tagname={tag}/>
+                ))}
                 </div>
             </div>
             <div className='description-right'>

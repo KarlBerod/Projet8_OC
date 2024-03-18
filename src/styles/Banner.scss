@@ -1,17 +1,19 @@
 .banner{
-    padding: 50px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/image1.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 25px;
-    margin-left: 70px;
-    margin-right: 70px; 
-    text-align: center;
-    margin-bottom: 25px;
+    img{
+        max-height: 223px;
+        object-fit: cover; 
+        object-position: center;
+        border-radius: 25px;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
     h1{
+        text-align: center;
         color: white;
         font-size: 40px;
         font-weight: 700;
         font-family: "Montserrat", sans-serif;
+        margin-top: -140px;
     }
 }

@@ -14,5 +14,9 @@ header a {
   font-weight: 400;
 }
 header .margin-left {
-  padding-left: 50px;
+  margin-left: 50px;
+}
+header .accueil-menu, header .a-propos-menu {
+  border-bottom: 2px solid black;
+  line-height: 20px;
 }/*# sourceMappingURL=Header.css.map */

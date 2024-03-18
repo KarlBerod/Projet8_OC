@@ -9,9 +9,10 @@
     }
     .description-right{
         padding-top: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    }
+    .location-description{
+        font-weight: 500;
+        font-size: 18px;
     }
 }
 
@@ -31,8 +32,7 @@
 
 .host{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-end;
     .name{
         margin-right: 10px;
     }

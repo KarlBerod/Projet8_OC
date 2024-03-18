@@ -1,10 +1,13 @@
 import logoRed from '../images/logo_red.jpg';
 import '../styles/Header.css';
 import {
-    NavLink
+    NavLink,
+    useLocation
   } from "react-router-dom";
 
 export default function Header(){
+    const location = useLocation();
+
     return(
         <header>
             <div>
@@ -12,8 +15,8 @@ export default function Header(){
             </div>
             <div>
                 <nav>
-                    <NavLink to="/">Accueil</NavLink>
-                    <NavLink to="/a-propos" className="margin-left">A Propos</NavLink>
+                    <NavLink to="/" className={location.pathname === "/" ? "accueil-menu" : ""}>Accueil</NavLink>
+                    <NavLink to="/a-propos" className={`margin-left ${location.pathname === '/a-propos' ? 'a-propos-menu' : ''}`}>A Propos</NavLink>
                 </nav>
             </div>
         </header>

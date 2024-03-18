@@ -13,6 +13,10 @@ header {
         font-weight: 400;
     }
     .margin-left{
-        padding-left: 50px;
+        margin-left: 50px;
+    }
+    .accueil-menu, .a-propos-menu{
+        border-bottom: 2px solid black;
+        line-height: 20px;
     }
 }
