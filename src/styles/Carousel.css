@@ -17,4 +17,18 @@
   padding-top: 70px;
   text-align: center;
   color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    height: 320px;
+  }
+  .carousel .left-arrow svg, .carousel .right-arrow svg {
+    width: 30px;
+    height: auto;
+  }
 }/*# sourceMappingURL=Carousel.css.map */

@@ -1,13 +1,12 @@
 import '../styles/App.css';
 import Header from "./Header"
 import Footer from "./Footer"
-import Banner from "./Banner"
-import CardContainer from "./CardContainer"
 import Accueil from "./Accueil"
 import APropos from "./APropos"
 import PageErreur from "./PageErreur"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FicheLogement from './FicheLogement';
+import data from '../data.json';
 
 function App(){
   return(
@@ -18,7 +17,10 @@ function App(){
           <Routes>
             <Route path="/" element={<Accueil />} />
             <Route path="/a-propos" element={<APropos />} />
-            <Route path="/logement" element={<FicheLogement />} />
+            {data.map((item, index) => (
+              <Route key={index} path={`/logement/${item.id}`} element={<FicheLogement index={index} />}/>
+            ))}
+            {/* <Route path="/logement/:id" element={<FicheLogement index={1} />} /> */}
             <Route path="*" element={<PageErreur />} />
           </Routes>
            

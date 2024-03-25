@@ -2,15 +2,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 30px;
     a{
         display: inline-block;
         text-decoration: none;
         color: black;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 500;
     }
     .margin-left{
         margin-left: 50px;
@@ -18,5 +18,26 @@ header {
     .accueil-menu, .a-propos-menu{
         border-bottom: 2px solid black;
         line-height: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    header{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+        img{
+            max-width: 150px;
+        }
+        a{
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        .margin-left{
+            margin-left: 20px;
+        }
+        .accueil-menu, .a-propos-menu{
+            line-height: 15px;
+        }
     }
 }

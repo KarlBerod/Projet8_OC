@@ -10,3 +10,11 @@
         color: #E3E3E3;
     }
 }
+
+@media(max-width: 900px){
+    .stars{
+        .fa-star{
+            font-size: 18px;
+        }
+    }
+}

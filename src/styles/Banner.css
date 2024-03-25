@@ -1,19 +1,27 @@
-.banner img {
-  max-height: 223px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 25px;
   width: 100%;
-  position: relative;
-  z-index: -1;
+  height: 223px;
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 .banner h1 {
-  text-align: center;
-  color: white;
   font-size: 40px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  margin-top: -140px;
+}
+
+@media (max-width: 900px) {
+  .banner {
+    height: 140px;
+    justify-content: flex-start;
+  }
+  .banner h1 {
+    margin-left: 15px;
+    font-size: 32px;
+  }
 }/*# sourceMappingURL=Banner.css.map */

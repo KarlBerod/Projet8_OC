@@ -7,9 +7,9 @@ export default function Accueil(){
     return(
         <div>
             <div className="banner-accueil">
-                <Banner text="Chez vous, partout et ailleurs" image={image1} brightness="0.4"/>
+                <Banner text="Chez vous, partout et ailleurs" image={image1} darkness="0.6"/>
             </div>
-            <CardContainer/>
+            <CardContainer className="card-container-accueil"/>
         </div>
     )
 }

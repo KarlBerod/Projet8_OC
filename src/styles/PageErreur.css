@@ -26,4 +26,17 @@
 
 .link-accueil {
   color: black;
+}
+
+@media (max-width: 900px) {
+  .error-content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .error-content h2 {
+    font-size: 18px;
+  }
+  .error-code {
+    font-size: 96px;
+  }
 }/*# sourceMappingURL=PageErreur.css.map */

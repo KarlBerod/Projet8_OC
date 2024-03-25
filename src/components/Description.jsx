@@ -3,12 +3,12 @@ import data from '../data.json';
 import Rating from './Rating';
 import Tag from './Tag';
 
-export default function Description(){
-    const title = data[0].title;
-    const location = data[0].location;
-    const tags = data[0].tags;
-    const host = data[0].host;
-    const [firstName, lastName] = data[0].host.name.split(' ');
+export default function Description({index}){
+    const title = data[index].title;
+    const location = data[index].location;
+    const tags = data[index].tags;
+    const host = data[index].host;
+    const [firstName, lastName] = data[index].host.name.split(' ');
 
     return(
         <div className='description'>

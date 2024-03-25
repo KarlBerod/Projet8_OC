@@ -19,7 +19,7 @@ export default function Collapse({title, content}){
                 </div>
             </div>
             <div className={`collapse-text-container ${collapse ? 'display' : ''}`}>
-                <p className='collapse-text'>{content}</p>
+                <div className='collapse-text'>{content}</div>
             </div>
         </div>
     )

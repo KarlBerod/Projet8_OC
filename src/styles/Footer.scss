@@ -6,6 +6,26 @@ footer{
     background-color: #000000;
     color: #FFFFFF;
     .logo-footer{
-        padding-top: 20px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+.footer-rights{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media(max-width: 900px){
+    .footer-rights{
+        margin-top: -15px;
+        padding-top: 0;
+        font-weight: 500;
+        font-size: 12px;
+        max-width: 100px;
+    }
+    .logo-footer{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }

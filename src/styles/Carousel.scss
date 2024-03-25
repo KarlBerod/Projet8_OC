@@ -18,3 +18,18 @@
     text-align: center;
     color: white;
 }
+
+.hidden{
+    display: none;
+}
+
+@media(max-width: 900px){
+    .carousel{
+        height: 320px;
+        .left-arrow svg, .right-arrow svg{
+            width: 30px;
+            height: auto;
+        }
+
+    }
+}

@@ -1,9 +1,8 @@
 .collapse-section-apropos {
-  margin-top: 40px;
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin: 40px 209px;
 }
 
 .collapse-apropos {
@@ -11,5 +10,18 @@
 }
 
 .banner-apropos {
-  margin-bottom: 175px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 900px) {
+  .collapse-section-apropos {
+    margin: 25px 25px;
+    gap: 25px;
+  }
+  .banner-apropos {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }/*# sourceMappingURL=APropos.css.map */

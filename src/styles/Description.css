@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
 }
+.description .description-left {
+  max-width: 70%;
+}
 .description h2 {
   color: #FF6060;
   font-size: 36px;
   font-weight: 500;
-  line-height: 5px;
+  line-height: 30px;
 }
 .description .description-right {
   padding-top: 15px;
@@ -14,20 +17,12 @@
 .description .location-description {
   font-weight: 500;
   font-size: 18px;
+  margin-top: -20px;
 }
 
 .tags {
   display: flex;
-}
-
-.tag {
-  background-color: #FF6060;
-  color: white;
-  border-radius: 8px;
-  width: 115px;
-  text-align: center;
-  gap: 10px;
-  margin-right: 15px;
+  align-items: center;
 }
 
 .host {
@@ -36,6 +31,8 @@
 }
 .host .name {
   margin-right: 10px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .host .description-name {
   color: #FF6060;
@@ -46,4 +43,21 @@
   border-radius: 50%;
   width: 64px;
   height: 64px;
+}
+
+@media (max-width: 900px) {
+  .description {
+    flex-direction: column;
+  }
+  .description .description-left {
+    max-width: 100%;
+  }
+  .description h2 {
+    font-size: 24px;
+  }
+  .description .description-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 }/*# sourceMappingURL=Description.css.map */

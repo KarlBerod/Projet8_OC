@@ -1,1 +1,19 @@
-/*# sourceMappingURL=Tag.css.map */
+.tag {
+  display: block;
+  align-items: center;
+  background-color: #FF6060;
+  color: white;
+  border-radius: 8px;
+  min-width: 100px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 3px 8px;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .tag {
+    margin-right: 8px;
+  }
+}/*# sourceMappingURL=Tag.css.map */
