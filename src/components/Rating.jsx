@@ -1,8 +1,8 @@
 import '../styles/Rating.css';
 import data from '../data.json';
 
-export default function Rating(){
-    const rating = data[1].rating;
+export default function Rating({index}){
+    const rating = data[index].rating;
     return(
         <div className="stars">
             <i className= {`fa-solid fa-star fa-xl ${rating >=1 ? 'red' : 'grey'}`}></i>

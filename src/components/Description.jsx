@@ -29,7 +29,7 @@ export default function Description({index}){
                     </div>
                     <img src={host.picture} alt="host profile" className='profile-pic'></img>
                 </div>
-                <Rating/>
+                <Rating index={index}/>
             </div>
         </div>
     )

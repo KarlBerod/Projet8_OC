@@ -20,7 +20,7 @@ function App(){
             {data.map((item, index) => (
               <Route key={index} path={`/logement/${item.id}`} element={<FicheLogement index={index} />}/>
             ))}
-            {/* <Route path="/logement/:id" element={<FicheLogement index={1} />} /> */}
+            {/* <Route path="/logement/:id" element={<FicheLogement index={index} />} /> */}
             <Route path="*" element={<PageErreur />} />
           </Routes>
            
