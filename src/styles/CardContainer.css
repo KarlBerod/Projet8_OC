@@ -19,4 +19,12 @@
     padding: 0;
     row-gap: 15px;
   }
+}
+@media (min-width: 1500px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 40px;
+    row-gap: 20px;
+  }
 }/*# sourceMappingURL=CardContainer.css.map */
